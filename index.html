@@ -1,169 +1,373 @@
-
-
-
-
-教育背景                                                                 
-
-2014.09～ 2017.06     厦门大学        生物物理与凝聚态物理                                           理学硕士 
-2010.09～ 2014.06     厦门大学        理论物理学专业                                                理学学士
-
-相关课程学习：
-2014-09~2015-06  人工智能   厦门大学 智能系专业课程                  史晓东教授
-2015~09~2016-06  数据挖掘   厦门大学 计算机系专业课程                林堔教授  
-2015~09~2016-06  模式识别   厦门大学 信息科学学院专业课程             杨晨晖教授
-2015~09~2016-06  机器学习   厦门大学 信息科学学院专业课程             王程教授
-
-
-
-专业技能                                                                      
-
-熟练使用 C, C++, Python，MATLAB 编程;
-有使用C/C++有蛋白组学大数据(10T 数据)处理的项目经验。
-
-数学建模，数学语言转换为计算机算法的能力突出，本科二年级获得“高社杯”数学建模比赛国家一等 奖，本科三年级获得MCM 北美大学生数学建模一等奖。
-
-熟悉各类图像检测算法（SSD,YOLO2, faster-rcnn 等）的原理，图像分类算法（AlexNet，VGGNet，GoogLeNet，ResNet等）的原理；视频预测，基于RNN+CNN的结构进行短时雷达图降雨预报建模。
-
-熟悉掌握机器学习的核心算法,SVM，决策树，随机森林，熟练使用XGBOOST和 LightGBM等框架。
-
-良好的数理背景，在专业上从事动力学结合量子力学计算模型的构建，对量子力学熟悉，具有物理、化学、生物学及计算医学的综合研究背景。
-
-
-
-语言能力                                                                    
-
-英语水平：CET-4/CET-6；
-良好的外语阅读能力，能熟练的阅读英语专业文章、说明书、专利等；
-能使用英语撰写专业学术论文、专利申请/科研项目申请文书等。
-项目经历 
-
-2018.03～至今  北京心知科技有限公司  机器学习工程师 
-
-工作内容：围绕心知科技基于精准全面的气象数据，落地新零售需求预测、基于地理位置和气象条件的广告精准投放、以及短时降雨预报的算法开发和模型应用交付工作。
-
-主要职责： 算法研发，工程实现，算法产品交付，算法团队搭建。
-主要难点：机器学习项目全周期管理与实现。
-
-项目内容：
-1.基于前期工作经验，应用XGBOOST模型为超市发提供销量预测的解决方案。
-
-2. 广告点击率预测和广告投放策略，使用 DeepFM 模型和 LR+GBDT 模型优化，也考虑用强化学习实现DSP平台的RTB竞价模式下投放策略优化的解决方案。
-
-3. 雷达图短临降雨预报，使用RNN（GRU）结合CNN的网络结构，在MXNET框架下实现无监督的雷达短临降雨预报系统。
-
-
-平台及技术：MXNET,  XGBOOST, Tensorflow .
-                                                                     
-
-2017.06～2018.03  便利蜂虫极科技 (北京) 有限公司  算法工程师
-
-项目一：千店千面，基于机器学习的门店销量预测和订货计划
-项目描述：50 家线下门店销量预测模型，实现千店千面的精准需求预测。使用GBDT模型进行商品中分类和热餐销量预测。后期改进模型，基于LSTM算法和DeepFM算法框架进行销量的时间序列预测，改进模型和提高准确度。
-
-主要职责： 算法研发，工程实现。
-
-主要难点：构建合适的特征工程，提高代码运行速度，算法嵌入spark、hive数据平台每日自动执行。
-
-解决方案：特征工程的构建通过不断组合和逐一增删的策略验证其有效性和对应的特殊情形分析，如节假日等。鉴于模型需要为众多门店的诸多SKU提供预测，前期使用XGBOOST在服务器上运行，后期改写为基于Spark分布式的执行流程，提高模型训练速度。任务需求配合 Jekins job调度系统自动执行完成。
-
-平台及技术：python pandas 模块的高效利用，用python写爬虫获取网络数据，Python Keras，Hadoop MySQL 数据库交互。
-
-项目二：门店人顾客脸识别与绑定
-项目描述： 进店结账人脸检测与绑定；门店购物结账时商品自动检测。
-
-主要职责： 算法研发，工程实现。
-
-主要难点：人脸识别算法的准确度已经够高，就是判断人脸绑定比较困难。商品检测中的热餐检测是难点。
-
-解决方案： 人脸识别通过对Facenet 算法框架中提取网络抽提的人脸embeding 进行聚类和多次逻辑判断，从而绑定顾客的APP ID 和 顾客面貌。门店购物高峰期排队严重，需要快速收银解决方案。通过初期实地调研和采集实时收银的数据，从中获取购物场景进行数据标注，SSD等模型训练和检测，从而验证实时检测收银系统的可靠性。热餐在盒子中，不好判断盒子中的菜品，为此考虑进行图像的语义分割。
-
-平台及技术： Tensorflow caffe facenet, SSD, YOLO, faster-RCNN 等模型。
-
-
-
-2016.07～2016.09   北京乐普医疗有限公司  研发工程师 实习
- 
-项目名称：液体活检试剂盒开发 ctDNA 数据分析 负责技术研究和甲基化基因芯片数据分析
-
-项目描述：液体活检需要通过特定的生物标记物去筛查潜在患者。发现并快速判断找到准确的生物标记物是格外重要的。通过借助已有的基因芯片数据，应用机器学习的算法，对其进行数据建模，能够分析得出比较有效的潜在标记物，为实验给出更准确的指导建议。
-
-主要职责：负责数据收集，文献重现，国外相关专利解读，美国FDA证书内容分析。建立癌症患者甲基化DNA数据分析库，收集4万多病人的数据（2T数据)，对数据进行预处理。
-
-主要难点： 数据量巨大，需要并行多核处理，应用SVM等机器学习算法对其进行分析。
-
-平台及技术： Python 数据分析与建库, Linux, MPI
-
-
-2016.10～2017.07 厦之医生物科技有限公司  公司创始人 
-
-搭建智能医疗影像数据分析平台并申请专利
-
-项目描述：通过整合各类组学数据，包含基因组学，蛋白组学，表观组学，医疗影像组学的数据，结和机器学习和深度学习的算法，搭建基于云平台的DeepOmics系统，为医院，医生提供智能化的服务和高效准确的医疗专家资源支持。
-
-主要职责：团队运营负责和算法开发。
-主要难点：数据收集 算法集成 组织运营。
-
-解决方案：通过各种渠道主动和医院建立联系，并以合作的方式获取一定数据，从而开展算法开发。学习运营管理公司，带团队。
- 
-平台及技术：Python/Matlab C++; tensorflow/caffe；Linux；GTX 1080 服务器，FPGA 快速算法研发。
-
-
-
-2016.01～2017.04  厦门大学 韩家淮院士试验室   项目负责人
-
-项目名称：蛋白质网络动力学分析 质谱数据分析课题 
-
-项目描述：通过质谱分析获取的蛋白数据对细胞反应体系进行建模和分析
-
-主要职责：算法研究
-
-主要难点：复杂的蛋白相互作用网络，需要通过数据挖掘和信息理论去解决网络中隐藏的信息。
-
-解决方案：通过图结构模型，进行蛋白互相作用的分析，利用互信息等手段提高相互作用的准确关联。
-
-平台及技术：用MATLAB 实现（自洽场）SCF算法 SDG（随机梯度下降） Huffman树 
-
-
-2013.03～2016.03 厦门大学 物理系 生物物理计算医学实验室  
-
-项目名称：蛋白质动力学模拟
-  
-项目描述：组氨酸激酶的自磷酸化是微生物的重要反应之一。通过研究该反应的机制，能够对微生物引起  的疾病进行很好的药物设计，从而帮助患者抵御该类微生物。
-主要职责：蛋白质动力学模拟算法研究 
-
-主要难点：生物体系的大规模模拟，需要大量生物和物理，化学，计算机知识和能力的积累。反应体系涉及到化学反应和金属离子，需要通过量子化学计算去完成。
-
-解决方案：主要的知识都是通过阅读大量文献，结合蛋白质动力学计算模拟软件 amber 开发说明书实现，其中为了学习量子化学计算，专程自费到清华大学参与15th国际量子化学计算大会，并主动认识领域专家高加力院士，后期到高老师所在吉林大学理化所交流学习三个月，从而掌握到动力学结合量子化学模拟的能力。
-
- 平台及技术：Linux 系统，Amber， Gauss09， NAMD 。
-
-
-
-
-
-
-
-科研成果  
-                                                                    
-与人合作发表 SCI论文 4 篇，其中3篇SCI
-
-1. Conformational Dynamics of Response Regulator RegX3 from Mycobacterium tuberculosis. IF 3.48
-
-2. Suppressing effect of Ca2+ blips on puff amplitudes by inhibiting channels to prevent recovery. IF 3.5
-
-3. Conformational dynamics of the essential sensor histidine kinase WalK. IF 2.5
-
-4. Chiral discrimination of amino acid enantiomers based on different interactions with Cu2+. IF 5.27
-
-发明专利1项：《一种基于深度神经网络的肺癌识别系统》专利号：2017107522379。
-
-
-
-
-自我评价    
-
-学习能力强，实践动手能力强。                                                               
-良好的算法、数据结构及编程基础。
-熟悉深度学习、人工智能、数学建模、统计、物理、量子化学计算等专业知识。
-熟练的阅读中英文文献及撰写中英文论文、科技项目申请书等，能够独立复现论文中的各种算法，工程能力过硬。
-团队协作能力和组织能力。
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Xingqiang Chen Home </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">主页</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">关于我</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">个人经历</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">项目&作品</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">联系</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+        
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">陈星强</h1>
+                            <p class="promo-block-text">机器学习 &amp; 深度学习 &amp; 算法工程师 </p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="#" class="social-icons"><i class="icon-social-github"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-google"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="img/mockup/avatar-01.png" align="xingqiang">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>关于我</h2>
+                                    <p>熟练使用 C, C++, Python，MATLAB 编程;有使用C/C++有蛋白组学大数据(10T 数据)处理的项目经验。</p>
+
+                                     <p>数学建模，数学语言转换为计算机算法的能力突出，本科二年级获得“高社杯”数学建模比赛国家一等 奖，本科三年级获得MCM 北美大学生数学建模一等奖。</p>
+
+                                    <p>熟悉各类图像检测算法（SSD,YOLO2, faster-rcnn 等）的原理，图像分类算法（AlexNet，VGGNet，GoogLeNet，ResNet等）的原理；视频预测，基于RNN+CNN的结构进行短时雷达图降雨预报建模。</p>
+
+                                     <p>熟悉掌握机器学习的核心算法,SVM，决策树，随机森林，熟练使用XGBOOST和 LightGBM等框架。</p>
+
+                                     <p>良好的数理背景，在专业上从事动力学结合量子力学计算模型的构建，对量子力学熟悉，具有物理、化学、生物学及计算医学的综合研究背景。</p>
+                                    
+                                </div>
+                                <a href="#" class="btn-theme btn-theme-md btn-default-bg text-uppercase">下载我的简历</a>
+                            </div>
+                        </div>
+
+                        <h2>个人技能</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>数据挖掘 <span class="color-heading pull-right">87%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>机器学习 <span class="color-heading pull-right">76%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>深度学习 <span class="color-heading pull-right">67%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-mustache"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>数据挖掘</h3>
+                                    <p class="margin-b-5">数据分析、数据建模</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">机器学习</h3>
+                                    <p class="color-white margin-b-5">销量预测、AUTOML</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 sm-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>深度学习</h3>
+                                    <p class="margin-b-5">雷达图短临降雨预报、深度学习自主学习系统</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>研究兴趣</h3>
+                                    <p class="margin-b-5">强化学习、图神经网络</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Experience -->
+        <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网站建设</a></div>
+
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>最新项目</h2>
+                        <p>AUTOML之销量预测、突变点检测、AUTODL之短时降雨预报</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">AUTOML 销量预测</a> <span class="text-uppercase margin-l-20">Management</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">更 多</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/02.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">突变点检测</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">更 多</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/03.jpg" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">AUTO-DL 短临预报</a> <span class="text-uppercase margin-l-20">Design</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">更 多</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Work -->
+
+        <!-- Clients -->
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
+        </div>
+        <!-- End Clients -->
+
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">个人愿景</h2>
+                <p class="promo-banner-text">自主、自动化的机器学习系统是程序员、工程师的自由之路。</p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>联系我</h2>
+                            <p>欢迎对自主机器学习系统和强化学习、图神经网络感兴趣的朋友联系我。</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>位置 </h4>
+                            <a href="#">中国, 杭州</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>电话</h4>
+                            <a href="#">+86 15001334125</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>邮件</h4>
+                            <a href="mailto:#">joy6677@qq.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>个人维护网站</h4>
+                            <a href="www.deepomics.ai">www.deepomics.ai</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
